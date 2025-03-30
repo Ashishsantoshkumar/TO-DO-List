@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.title-container {
+    display: flex;  
+    align-items: center;  /* Center align */
+    justify-content: center; /* Center me leke aana */
+    gap: 10px; /* h1 aur image ke beech gap */
+}
+
+.title-container img {
+    width: 50px; /* Image ka size */
+    height: auto;
+}
+
+
+.inputcontainer {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 30px;
+}
+
+.inputcontainer input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.inputcontainer input[type='text'] {
+    width: 70%;
+}
+
+.inputcontainer input[type='button'] {
+    background-color: bisque;
+    font-weight: bold;
+    text-decoration: solid;
+    margin-left: 9px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+.inputcontainer input[type="button"]:hover {
+    background-color: rgb(184, 184, 240);
+}
+
+
+
+ul {
+    width: 100%;
+    max-width: 450px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    border: 1px solid rgb(168, 168, 168);
+    margin-block-end: 15px;
+    border-radius: 8px;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: end; */
+}
+
+ul li:hover {
+    background-color: bisque;
+}
+
+ul li p {
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.deletebtn {
+    color: rgb(114, 30, 210);
+}
+
+.editbtn {
+    color: red;
+}
